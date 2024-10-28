@@ -226,6 +226,8 @@ export function WohnraumMobileApp() {
                 alt={apartment.title}
                 layout="fill"
                 objectFit="cover"
+                width={1200}
+                height={1200}
               />
               {apartment.isNew && (
                 <Badge variant="secondary" className="absolute top-2 right-2 bg-blue-100 text-blue-800">
