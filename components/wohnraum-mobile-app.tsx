@@ -10,15 +10,16 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Home, Search, Euro, MapPin, Bell, User, Tag, X, Filter, ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 
+    // image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SCHOENER_WOHNEN_Kunstdrucke-Srwn6toJEK7SBT3J7piFPMLxdtk67m.jpg",
 const initialApartments = [
-  { 
-    id: 1, 
-    title: "Modernes Wohnzimmer mit Kunstgalerie", 
-    price: 1500, 
-    location: "Stadtmitte", 
-    type: "Luxus", 
-    isNew: true, 
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SCHOENER_WOHNEN_Kunstdrucke-Srwn6toJEK7SBT3J7piFPMLxdtk67m.jpg", 
+  {
+    id: 1,
+    title: "Modernes Wohnzimmer mit Kunstgalerie",
+    price: 1500,
+    location: "Stadtmitte",
+    type: "Luxus",
+    isNew: true,
+    image: "https://drive.google.com/file/d/1U8Vyz0dvbLz-NFcq2ntqItXEUn0tKsDE/view?usp=drive_link",
     tags: ["Große Fenster", "Kunstgalerie", "Graues Sofa", "Holzmöbel", "Winterblick"]
   },
   { 
