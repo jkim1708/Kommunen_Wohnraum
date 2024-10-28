@@ -1,5 +1,5 @@
-import { RetailClientDataManagementComponent } from "@/components/retail-client-data-management"
+import { WohnraumMobileApp } from "@/components/wohnraum-mobile-app"
 
 export default function Page() {
-  return <RetailClientDataManagementComponent />
+  return <WohnraumMobileApp />
 }
